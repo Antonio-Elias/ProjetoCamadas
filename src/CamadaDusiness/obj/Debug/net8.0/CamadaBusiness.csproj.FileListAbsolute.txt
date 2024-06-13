@@ -1,0 +1,11 @@
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.deps.json
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.pdb
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfoInputs.cache
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfo.cs
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.CoreCompileInputs.cache
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\CamadaBusiness.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll

@@ -1,0 +1,15 @@
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\bin\Debug\net8.0\CamadaData.deps.json
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\bin\Debug\net8.0\CamadaData.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\bin\Debug\net8.0\CamadaData.pdb
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\bin\Debug\net8.0\CamadaBusiness.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\bin\Debug\net8.0\CamadaBusiness.pdb
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.csproj.AssemblyReference.cache
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.AssemblyInfoInputs.cache
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.AssemblyInfo.cs
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.csproj.CoreCompileInputs.cache
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.csproj.Up2Date
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\refint\CamadaData.dll
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\CamadaData.pdb
+C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaData\obj\Debug\net8.0\ref\CamadaData.dll

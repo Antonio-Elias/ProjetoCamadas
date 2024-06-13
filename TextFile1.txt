@@ -1,0 +1,9 @@
+1º Cria a solution blank.
+2º Cria o projeto WebAplication
+3º Cria o projeto camada de negocios class library
+3º Cria o projeto camada de data
+   Instala no projeto o MicrosoftEntityFrameworkCore.
+   Cria o contexto, 
+
+4º instalar o MicrosoftEntityFrameworkCore.Relational, para reconhecimento de mapeamento
+4º instalar o MicrosoftEntityFrameworkCore.Relational, para reconhecimento de mapeamento
