@@ -1,8 +1,4 @@
-﻿using CamadaBusiness.Interfaces;
-using CamadaBusiness.Models;
-using CamadaData.Context;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
+﻿using CamadaData.Context;
 
 namespace CamadaData.Repository;
 
