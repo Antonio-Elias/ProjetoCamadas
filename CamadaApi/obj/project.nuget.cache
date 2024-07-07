@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aF8qeCU7KBfMJaszG4YryXIq/FF6GbFRJV05BN9Zk6c69sS3rgUBLLzxahpWVYD79JTSTHWyP/hpIeyXo4jVsg==",
+  "dgSpecHash": "Etr8P3VCYKzCHxzrXx3HK4aj5PpJ0XMdzWswZBTV39IXtdZAdrtlhA+DQIN5k+sOhGYx8hZdoAxAsRUeI5+Uew==",
   "success": true,
   "projectFilePath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antonio\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Antonio\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Antonio\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Antonio\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Antonio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Antonio\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -81,5 +82,12 @@
     "C:\\Users\\Antonio\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Antonio\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

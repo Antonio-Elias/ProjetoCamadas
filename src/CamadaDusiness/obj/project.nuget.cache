@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NAxSnZzn1FTacktaAaHGKQBwMTmfXCUnyLMSjPGiBvUj+F9nqkplviKBEswgdFMbaX2KNqmrDnhQFX5iv7ONzg==",
+  "dgSpecHash": "W1X/c2UVLyHXbC0blDvCklP+Q1Pao3K7YHohjlKAC92iC1TFrEHToBwU61JwD97PKSMJ6VsN2WWnZJh/t7KADg==",
   "success": true,
   "projectFilePath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Antonio\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
