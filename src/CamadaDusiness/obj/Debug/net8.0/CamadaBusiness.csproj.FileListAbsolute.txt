@@ -9,3 +9,15 @@ C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\
 C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\CamadaBusiness.dll
 C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
 C:\Users\antonio.elias\source\repos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.deps.json
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.dll
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.pdb
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfoInputs.cache
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfo.cs
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.CoreCompileInputs.cache
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.sourcelink.json
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.dll
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\CamadaBusiness.dll
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll

@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {}
+    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
+    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+        "projectUniqueName": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
         "projectName": "CamadaBusiness",
-        "projectPath": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
-        "packagesPath": "C:\\Users\\antonio.elias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
+        "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+        "outputPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\antonio.elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,9 +42,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -60,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
