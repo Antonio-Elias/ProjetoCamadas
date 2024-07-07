@@ -2,8 +2,7 @@
 
 using CamadaBusiness.Models;
 
-namespace CamadaBusiness.Models
-    ;
+namespace CamadaBusiness.Models;
 
 public class Fornecedor : Entity
 {

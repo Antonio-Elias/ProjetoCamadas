@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vF3XKJL2JIbiabZQjnhz63JWyz8FrBlfFVffizxPHNxomJUldZ/9kG1HKj1SFI1ppH2cdVdMti9tobJecdlVUA==",
+  "dgSpecHash": "Rb/2FbskEQBRU5X4Dr7KS1pYqiMi58dWt0HNbMV0WF47gwRwOYlzzS87LZGeEKnW7TfO2Or3MiJM8d/ppkEvFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\antonio.elias\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }

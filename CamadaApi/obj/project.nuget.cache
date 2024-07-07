@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DjXng6npgs5+bFzcCRfLsKzBzPgG3645M6IjmHKofNgUmNKWCC1p2NOFlxWE7YTNI4aOVaAmyPnOTo2Ro6ajOg==",
+  "dgSpecHash": "8XUwvyLQ/Sbd/f2ZqBsKr4xztgSCXzrlwAqd1cN5gOAzpqc9lGegS6Aikdk2jWJya3NPLh+ogWm6y0TEj3jzhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antonio.elias\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\antonio.elias\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\antonio.elias\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\antonio.elias\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\antonio.elias\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\antonio.elias\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
