@@ -50,6 +50,7 @@ public class FornecedorService : BaseService, IFornecedorService
         await _enderecoRepository.Atualizar(endereco);
     }
 
+
     public async Task Remover(Guid id)
     {
         if (_forneceorRepository.ObterFornecedorProdutosEndereco(id).Result.Produtos.Any())
@@ -59,5 +60,11 @@ public class FornecedorService : BaseService, IFornecedorService
         }
 
         await _forneceorRepository.Remover(id);
+    }
+
+    public void Dispose()
+    {
+        _enderecoRepository.Dispose();
+        _forneceorRepository.Dispose();
     }
 }

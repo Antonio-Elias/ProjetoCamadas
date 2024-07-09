@@ -3,7 +3,7 @@ using CamadaBusiness.Models;
 
 namespace CamadaBusiness.Interfaces;
 
-public interface IFornecedorService
+public interface IFornecedorService : IDisposable
 {
     Task Adicionar(Fornecedor fornecedor);
     Task Atualizar(Fornecedor fornecedor);
