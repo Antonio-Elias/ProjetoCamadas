@@ -1,18 +1,19 @@
 ﻿using CamadaBusiness.Interfaces;
 using CamadaBusiness.Models;
+using CamadaBusiness.Models.Validations;
 
 namespace CamadaBusiness.Services;
 
 public class ProdutoService : BaseService, IProdutoService
 {
-    public Task Adicionar(Produto produto)
+    public async Task Adicionar(Produto produto)
     {
-        throw new NotImplementedException();
+        if (!ExecutarValidation(new ProdutoValidation(), produto)) return;
     }
 
-    public Task Atualizar(Produto produto)
+    public async Task Atualizar(Produto produto)
     {
-        throw new NotImplementedException();
+        if (!ExecutarValidation(new ProdutoValidation(), produto)) return;
     }
 
     public Task Remover(Guid id)

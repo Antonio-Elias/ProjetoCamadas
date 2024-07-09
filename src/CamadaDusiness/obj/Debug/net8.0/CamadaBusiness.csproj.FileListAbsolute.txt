@@ -21,3 +21,4 @@ E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBu
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\CamadaBusiness.dll
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll
+E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.AssemblyReference.cache
