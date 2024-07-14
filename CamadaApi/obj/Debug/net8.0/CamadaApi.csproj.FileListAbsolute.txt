@@ -269,3 +269,4 @@ E:\Curso\C#\projetos\ProjetoCamadas\CamadaApi\obj\Debug\net8.0\refint\CamadaApi.
 E:\Curso\C#\projetos\ProjetoCamadas\CamadaApi\obj\Debug\net8.0\CamadaApi.pdb
 E:\Curso\C#\projetos\ProjetoCamadas\CamadaApi\obj\Debug\net8.0\CamadaApi.genruntimeconfig.cache
 E:\Curso\C#\projetos\ProjetoCamadas\CamadaApi\obj\Debug\net8.0\ref\CamadaApi.dll
+E:\Curso\C#\projetos\ProjetoCamadas\CamadaApi\bin\Debug\net8.0\FluentValidation.dll

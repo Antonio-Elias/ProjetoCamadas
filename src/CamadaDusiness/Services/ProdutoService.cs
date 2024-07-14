@@ -7,7 +7,8 @@ namespace CamadaBusiness.Services;
 public class ProdutoService : BaseService, IProdutoService
 {
     private readonly IProdutoRepository _produtoRepository;
-    public ProdutoService(IProdutoRepository produtoRepository)
+    public ProdutoService(IProdutoRepository produtoRepository,
+                          INotificador notificador) : base(notificador)
     {
         _produtoRepository = produtoRepository;
     }
@@ -34,6 +35,6 @@ public class ProdutoService : BaseService, IProdutoService
 
     public void Dispose()
     {
-        _produtoRepository.Dispose();
+        _produtoRepository?.Dispose();
     }
 }

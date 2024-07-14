@@ -6,12 +6,14 @@ namespace CamadaBusiness.Services;
 
 public class FornecedorService : BaseService, IFornecedorService
 {
-    private readonly IFornecedorRepository _forneceorRepository;
+    private readonly IFornecedorRepository _fornecedorRepository;
     private readonly IEnderecoRepository _enderecoRepository;
 
-    public FornecedorService(IFornecedorRepository fornecedorRepository, IEnderecoRepository enderecoRepository)
+    public FornecedorService(IFornecedorRepository fornecedorRepository, 
+                             IEnderecoRepository enderecoRepository, 
+                             INotificador notificador) : base(notificador)
     {
-        _forneceorRepository = fornecedorRepository;
+        _fornecedorRepository = fornecedorRepository;
         _enderecoRepository = enderecoRepository;
     }
 
@@ -19,28 +21,28 @@ public class FornecedorService : BaseService, IFornecedorService
     {
         //Validar o estado da entidade
         if (!ExecutarValidation(new FornecedorValidation(), fornecedor)
-            && !ExecutarValidation(new EnderecoValidation(), fornecedor.Endereco)) return;
+            || !ExecutarValidation(new EnderecoValidation(), fornecedor.Endereco)) return;
 
-        if(_forneceorRepository.Buscar(f => f.Documento == fornecedor.Documento).Result.Any())
+        if(_fornecedorRepository.Buscar(f => f.Documento == fornecedor.Documento).Result.Any())
         {
             Notificar("Ja existe um fornecedor com este documento informado.");
 
             return;
         }
 
-        await _forneceorRepository.Adicionar(fornecedor);
+        await _fornecedorRepository.Adicionar(fornecedor);
     }
 
     public async Task Atualizar(Fornecedor fornecedor)
     {
         if (!ExecutarValidation(new FornecedorValidation(), fornecedor)) return;
 
-        if(_forneceorRepository.Buscar(f => f.Documento == fornecedor.Documento && f.Id != fornecedor.Id).Result.Any())
+        if(_fornecedorRepository.Buscar(f => f.Documento == fornecedor.Documento && f.Id != fornecedor.Id).Result.Any())
         {
             Notificar("Já existej um fornecedor com o documento informado!");
         }
 
-        await _forneceorRepository.Atualizar(fornecedor);
+        await _fornecedorRepository.Atualizar(fornecedor);
     }
 
     public async Task AtualizarEndereco(Endereco endereco)
@@ -53,18 +55,18 @@ public class FornecedorService : BaseService, IFornecedorService
 
     public async Task Remover(Guid id)
     {
-        if (_forneceorRepository.ObterFornecedorProdutosEndereco(id).Result.Produtos.Any())
+        if (_fornecedorRepository.ObterFornecedorProdutosEndereco(id).Result.Produtos.Any())
         {
             Notificar("O fornecedor possui produtos cadastrados!");
             return;
         }
 
-        await _forneceorRepository.Remover(id);
+        await _fornecedorRepository.Remover(id);
     }
 
     public void Dispose()
     {
-        _enderecoRepository.Dispose();
-        _forneceorRepository.Dispose();
+        _enderecoRepository?.Dispose();
+        _fornecedorRepository?.Dispose();
     }
 }

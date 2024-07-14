@@ -1,4 +1,6 @@
 using CamadaBusiness.Interfaces;
+using CamadaBusiness.Notifications;
+using CamadaBusiness.Services;
 using CamadaData.Context;
 using CamadaData.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +14,9 @@ builder.Services.AddScoped<MeuDbContext, MeuDbContext>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
 builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+builder.Services.AddScoped<INotificador, Notificador>();
+builder.Services.AddScoped<IFornecedorService, FornecedorService>();
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
 
 var app = builder.Build();
 
