@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj": {}
+    "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj": {}
   },
   "projects": {
-    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj": {
+    "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
         "projectName": "CamadaApi",
-        "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
-        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\CamadaApi\\obj\\",
+        "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
+        "packagesPath": "C:\\Users\\antonio.elias\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\antonio.elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj": {
-                "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj"
+              "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj": {
+                "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj"
               }
             }
           }
@@ -46,13 +40,19 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.5, )"
@@ -87,26 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj": {
+    "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj",
         "projectName": "CamadaData",
-        "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj",
-        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaData\\obj\\",
+        "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\CamadaData.csproj",
+        "packagesPath": "C:\\Users\\antonio.elias\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\antonio.elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,15 +109,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
-                "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj"
+              "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
+                "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj"
               }
             }
           }
@@ -133,7 +127,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -169,26 +165,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
+    "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
         "projectName": "CamadaBusiness",
-        "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
-        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
+        "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+        "packagesPath": "C:\\Users\\antonio.elias\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\antonio.elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,7 +187,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -211,7 +201,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -239,7 +231,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

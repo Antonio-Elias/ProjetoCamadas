@@ -50,26 +50,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Antonio\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\antonio.elias\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+      "projectUniqueName": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
       "projectName": "CamadaBusiness",
-      "projectPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
-      "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
-      "outputPath": "E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
+      "projectPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\CamadaBusiness.csproj",
+      "packagesPath": "C:\\Users\\antonio.elias\\.nuget\\packages\\",
+      "outputPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\antonio.elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -77,7 +70,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -92,7 +84,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -120,16 +114,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\Curso\\C#\\projetos\\ProjetoCamadas\\src\\CamadaDusiness\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
