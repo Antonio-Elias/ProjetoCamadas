@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CamadaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b60ef801fb915f6cda829091696a6186d850c6ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3003f7d36e8eb7a34eaf2190c86f854b470f81e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CamadaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CamadaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

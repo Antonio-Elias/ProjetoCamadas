@@ -23,6 +23,14 @@ namespace CamadaData.Mappings
                    .IsRequired()
                    .HasColumnType("varchar(100)");
 
+            builder.Property(p => p.DataCadastro)
+                  .IsRequired()
+                  .HasColumnType("DateTime");
+
+            builder.Property(p => p.DataAlteracao)
+                   .IsRequired()
+                   .HasColumnType("DateTime");
+
             builder.ToTable("Produtos");
         }
     }
