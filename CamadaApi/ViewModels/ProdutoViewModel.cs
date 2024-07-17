@@ -8,7 +8,7 @@ public class ProdutoViewModel
     [Key]
     public Guid Id { get; set; }
 
-    [Required(ErrorMesage = "O campo {0} é obrigatório")]
+    [Required(ErrorMessage =  "O campo {0} é obrigatório")]
     public Guid FornecedorId { get; set; }
 
     [Required(ErrorMessage ="O campo {0} é obrigatório")]

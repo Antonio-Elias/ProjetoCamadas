@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CamadaApi.ViewModels;
 
-public class FonecedorViewModel
+public class FornecedorViewModel
 {
     [Key]
     public Guid Id { get; set; }
