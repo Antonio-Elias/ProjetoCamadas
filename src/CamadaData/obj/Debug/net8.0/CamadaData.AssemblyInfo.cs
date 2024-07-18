@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CamadaData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90a0bcc6eb0474432377e5db81bcdcc68e19f5b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+324eb232710e801b4bf8514629329dc2001bea84")]
 [assembly: System.Reflection.AssemblyProductAttribute("CamadaData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CamadaData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

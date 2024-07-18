@@ -1,12 +1,139 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\antonio.elias\\source\\repos\\ProjetoCamadas\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\extensions\\produtomodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\extensions\\produtomodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\viewmodels\\produtoimagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\viewmodels\\produtoimagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\camadaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\camadaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|d:\\desenvolvimento\\aulas\\projetocamadas\\camadaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BD5EB5-DB24-418B-A231-757898029F95}|CamadaApi\\CamadaApi.csproj|solutionrelative:camadaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\Controllers\\ProdutoController.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "CamadaApi\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAcwIMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:30:30.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoImagemViewModel.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "RelativeToolTip": "CamadaApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:27:16.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoModelBinder.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Extensions\\ProdutoModelBinder.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\Extensions\\ProdutoModelBinder.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Extensions\\ProdutoModelBinder.cs*",
+              "RelativeToolTip": "CamadaApi\\Extensions\\ProdutoModelBinder.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAAWwB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:25:09.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CamadaApi",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
+              "RelativeDocumentMoniker": "CamadaApi\\CamadaApi.csproj",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\CamadaApi.csproj",
+              "RelativeToolTip": "CamadaApi\\CamadaApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-18T11:24:37.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Program.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\Program.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Program.cs",
+              "RelativeToolTip": "CamadaApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T20:51:59.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CamadaApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T19:55:57.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Configuration\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "CamadaApi\\Configuration\\IdentityConfig.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Aulas\\ProjetoCamadas\\CamadaApi\\Configuration\\IdentityConfig.cs",
+              "RelativeToolTip": "CamadaApi\\Configuration\\IdentityConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T19:46:08.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

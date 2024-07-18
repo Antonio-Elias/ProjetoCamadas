@@ -22,3 +22,16 @@ E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\C
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll
 E:\Curso\C#\projetos\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.deps.json
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.dll
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\bin\Debug\net8.0\CamadaBusiness.pdb
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.AssemblyInfo.cs
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.sourcelink.json
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.dll
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\refint\CamadaBusiness.dll
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\CamadaBusiness.pdb
+D:\Desenvolvimento\Aulas\ProjetoCamadas\src\CamadaDusiness\obj\Debug\net8.0\ref\CamadaBusiness.dll
