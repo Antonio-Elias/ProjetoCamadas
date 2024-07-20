@@ -3,10 +3,12 @@ using CamadaApi.Extensions;
 using CamadaApi.ViewModels;
 using CamadaBusiness.Interfaces;
 using CamadaBusiness.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CamadaApi.Controllers;
 
+[Authorize]
 [Route("api/produtos")]
 public class ProdutoController : MainController
 {
@@ -16,7 +18,8 @@ public class ProdutoController : MainController
     public ProdutoController(INotificador notificador,
                              IProdutoRepository produtoRepository,
                              IProdutoService produtoService,
-                             IMapper mapper) : base(notificador)
+                             IMapper mapper,
+                             IUser user) : base(notificador, user)
     {
         _produtoRepository = produtoRepository;
         _produtoService = produtoService;
@@ -38,7 +41,7 @@ public class ProdutoController : MainController
 
         return produtoViewModel;
     }
-
+    [ClaimsAuthorize("Produto", "Adicionar")]
     [HttpPost]
     public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
     {
@@ -55,8 +58,8 @@ public class ProdutoController : MainController
 
         return CustonResponse(produtoViewModel);
     }
-    
-    
+
+    [ClaimsAuthorize("Produto", "Atualizar")]
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
     {
@@ -95,6 +98,7 @@ public class ProdutoController : MainController
         return CustonResponse(produtoViewModel);
     }
 
+    [ClaimsAuthorize("Produto", "Excluir")]
     [HttpDelete("{id:guid}")]
     public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
     {

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CamadaApi.Extensions;
 using CamadaApi.ViewModels;
 using CamadaBusiness.Interfaces;
 using CamadaBusiness.Models;
@@ -20,7 +21,8 @@ public class FonecedoresController : MainController
                                  IMapper mapper,
                                  IFornecedorService fornecedorService,
                                  INotificador notificador,
-                                 IEnderecoRepository enderecoRepository) : base(notificador)
+                                 IEnderecoRepository enderecoRepository,
+                                 IUser user) : base(notificador, user)
     {
         _fornecedorRepository = fornecedorRepository;
         _mapper = mapper;
@@ -52,6 +54,7 @@ public class FonecedoresController : MainController
         return _mapper.Map<EnderecoViewModel>(await _enderecoRepository.ObterPorId(id));
     }
 
+    [ClaimsAuthorize("Fornecedor", "Atualizar")]
     [HttpPut("atualizar-endereco/{id:guid}")]
     public async Task<IActionResult> AtualizarEndereco(Guid id, EnderecoViewModel enderecoViewModel)
     {
@@ -68,6 +71,7 @@ public class FonecedoresController : MainController
         return CustonResponse(enderecoViewModel);
     }
 
+    [ClaimsAuthorize("Fornecedor", "Adicionar")]
     [HttpPost]
     public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
     {
@@ -79,6 +83,7 @@ public class FonecedoresController : MainController
 
     }
 
+    [ClaimsAuthorize("Fornecedor", "Atualizar")]
     [HttpPut("{id:guid}")]
     public async Task<ActionResult<FornecedorViewModel>> Atualizar(Guid id, FornecedorViewModel fornecedorViewModel)
     {
@@ -96,6 +101,7 @@ public class FonecedoresController : MainController
 
     }
 
+    [ClaimsAuthorize("Fornecedor", "Excluir")]
     [HttpDelete]
     public async Task<ActionResult<FornecedorViewModel>> Excluir(Guid id)
     {

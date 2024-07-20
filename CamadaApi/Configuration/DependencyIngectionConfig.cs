@@ -1,4 +1,5 @@
-﻿using CamadaBusiness.Interfaces;
+﻿using CamadaApi.Extensions;
+using CamadaBusiness.Interfaces;
 using CamadaBusiness.Notifications;
 using CamadaBusiness.Services;
 using CamadaData.Context;
@@ -18,6 +19,9 @@ public static class DependencyIngectionConfig
         services.AddScoped<INotificador, Notificador>();
         services.AddScoped<IFornecedorService, FornecedorService>();
         services.AddScoped<IProdutoService, ProdutoService>();
+
+        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped<IUser, AspNetUser>();
 
         return services;
     }

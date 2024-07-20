@@ -17,4 +17,5 @@ builder.Services.ValidacaoModelState();
 
 var app = builder.Build();
 
+app.UseAuthentication();
 app.Run();
